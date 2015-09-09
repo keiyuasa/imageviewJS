@@ -1,0 +1,22 @@
+h1{
+font-family: Verdana;
+font-size: 20px;
+font-weight: bold;
+color: #000;
+margin:0;
+}
+h1 em{
+font-size: 18px;
+color: #FF9900;
+}
+
+#ImageHolder {
+	border: solid 5px #ccc;
+}
+
+.title{
+	float: left;
+}
+.buttons{
+	float: right;
+}

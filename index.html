@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>Image Gallery</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/images.js"></script>
+</head>
+<body onload="init()">
+	<h1>Image Gallery</h1>
+	<h2 id="title">1:Laptop</h2>
+	<div id="buttons">
+		<form name="test">
+			<input type="button" value="Prev" onclick="prev()" /> <input
+				type="button" value="Next" onclick="next()" />
+		</form>
+	</div>
+	<p>
+		<img id="ImageHolder"
+			src="http://rtm.ebaystatic.com/0/RTMS/Image/30901_July_30_HALO_656x402_Laptop.jpg" />
+	</p>
+</body>
+</html>
